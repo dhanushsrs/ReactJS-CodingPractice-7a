@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.app-con {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-con {
+  background-color: #150b3e;
+  width: 80%;
+  border-radius: 8px;
+  padding: 25px;
+  max-width: 422px;
+}
+
+.user-details-con {
+  display: flex;
+}
+
+.initial-con {
+  background-color: #c7d2fe;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.initial {
+  color: #7c3aed;
+  font-family: 'Roboto';
+}
+
+.name {
+  font-family: 'Roboto';
+  color: #d4d2db;
+  margin-left: 15px;
+}
+
+.balance-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+
+.your-balance {
+  color: #585076;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+.balance {
+  color: #c4c4c4;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.currency {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.withdraw {
+  color: #c4c4c4;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.sum {
+  color: #585076;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.denomination-list {
+  display: flex;
+
+  flex-wrap: wrap;
+  padding-left: 0;
+  justify-content: space-between;
+}
